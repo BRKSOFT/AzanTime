@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/txtCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tekirdağ"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:indeterminate="true" />
+
+    <TextView
+        android:id="@+id/txtLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Namaz vakitleri yükleniyor..."
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="?android:attr/colorError"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtFajr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="İmsak:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtDhuhr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Öğle:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtAsr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İkindi:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtMaghrib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Akşam:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtIsha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yatsı:"
+        android:textSize="18sp" />
+
+</LinearLayout>
