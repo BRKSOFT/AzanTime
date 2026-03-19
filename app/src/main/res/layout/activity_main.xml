@@ -9,7 +9,7 @@
         android:id="@+id/txtCity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tekirdağ"
+        android:text="Çorlu/Tekirdağ"
         android:textSize="24sp"
         android:textStyle="bold" />
 

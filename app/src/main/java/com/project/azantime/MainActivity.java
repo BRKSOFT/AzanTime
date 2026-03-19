@@ -52,7 +52,8 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         PrayerApi api = retrofit.create(PrayerApi.class);
-        Call<PrayerResponse> call = api.getPrayerTimes(40.978, 27.511, 13);
+        // Çorlu/Tekirdağ: 41.1592, 27.8000
+        Call<PrayerResponse> call = api.getPrayerTimes(41.1592, 27.8000, 13);
 
         call.enqueue(new Callback<PrayerResponse>() {
             @Override
